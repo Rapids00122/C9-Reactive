@@ -20,7 +20,6 @@ const app = Vue.createApp({
                 const episodeCount = episodeCountNode.textContent.trim()
 
                 const nameAttribute = xmlDOM.querySelector('anime').getAttribute('name')
-                console.log(nameAttribute)
                 const name = nameAttribute.trim()
 
                 this.animeData = { name, episodeCount }
